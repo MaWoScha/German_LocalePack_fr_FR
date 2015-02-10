@@ -1,0 +1,114 @@
+<_>
+   <form_key></form_key>
+   <name>German_LocalePack_fr_FR</name>
+   <channel>community</channel>
+   <version_ids>
+      <version_ids>2</version_ids>
+   </version_ids>
+   <summary>German Community Modules - French (France) Language Pack</summary>
+   <description>Pack en langue française pour Magento Commerce
+
+French language pack for Magento Commerce
+
+Französisches Sprachpaket für Magento Commerce</description>
+   <license>OSL</license>
+   <license_uri>http://opensource.org/licenses/osl-3.0.php</license_uri>
+   <version>0.1.0</version>
+   <stability>stable</stability>
+   <notes>Compatible with Magento (1.6.2) 1.7.0.x-1.9.2.x</notes>
+   <authors>
+      <name>
+         <name>Manfred Worm Schäfer</name>
+      </name>
+      <user>
+         <user>MaWoScha</user>
+      </user>
+      <email>
+         <email>manfredwormschaefer@gmail.com</email>
+      </email>
+   </authors>
+   <depends_php_min>5.2.0</depends_php_min>
+   <depends_php_max>6.0.0</depends_php_max>
+   <depends>
+      <package>
+         <name>
+            <name/>
+         </name>
+         <channel>
+            <channel/>
+         </channel>
+         <min>
+            <min/>
+         </min>
+         <max>
+            <max/>
+         </max>
+         <files>
+            <files/>
+         </files>
+      </package>
+      <extension>
+         <name>
+            <name>Core</name>
+         </name>
+         <min>
+            <min/>
+         </min>
+         <max>
+            <max/>
+         </max>
+      </extension>
+   </depends>
+   <contents>
+      <target>
+         <target>magelocal</target>
+         <target>magecommunity</target>
+         <target>mageetc</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+      </target>
+      <path>
+         <path/>
+         <path>German/LocalePackFr</path>
+         <path>modules/German_LocalePackFr.xml</path>
+         <path>de_DE/German_LocaleFr.csv</path>
+         <path>en_US/German_LocaleFr.csv</path>
+         <path>es_ES/German_LocaleFr.csv</path>
+         <path>fr_FR/German_LocaleFr.csv</path>
+         <path>pt_PT/German_LocaleFr.csv</path>
+      </path>
+      <type>
+         <type>file</type>
+         <type>dir</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+      </type>
+      <include>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+      </include>
+      <ignore>
+         <ignore/>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+      </ignore>
+   </contents>
+</_>

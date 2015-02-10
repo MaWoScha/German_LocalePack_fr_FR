@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * @category  German
+ * @package   German_LocalePack
+ * @authors   MaWoScha <mawoscha@siempro.co, http://www.siempro.co/>, Rico Neitzel <rico@buro71a.de, http://www.buro71a.de/>
+ * @developer MaWoScha <mawoscha@siempro.co, http://www.siempro.co/>, Rico Neitzel <rico@buro71a.de, http://www.buro71a.de/>
+ * @version   0.1.0
+ * @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+ -->
+<config>
+	<tabs>
+		<localepacks translate="label" module="localepackfr">
+			<label>Locale Packs</label>
+			<sort_order>150</sort_order>
+		</localepacks>
+	</tabs>
+	<sections>
+		<localepackfr module="localepackfr">
+			<label>Locale fr_FR</label>
+			<tab>localepacks</tab>
+			<sort_order>70</sort_order>
+			<show_in_default>1</show_in_default>
+			<show_in_website>0</show_in_website>
+			<show_in_store>0</show_in_store>
+			<groups>
+				<maininfo translate="label" module="localepackfr">
+					<label>German language package fr_FR - Community Edition (CE)</label>
+					<frontend_type>text</frontend_type>
+                    <frontend_model>localepackfr/system_config_form_fieldset_instructions</frontend_model>
+					<sort_order>10</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>0</show_in_website>
+					<show_in_store>0</show_in_store>
+				</maininfo>
+
+				<mcm translate="label" module="localepackfr">
+					<label>Translate Magento Connect Manager</label>
+					<frontend_type>text</frontend_type>
+                    <frontend_model>localepackfr/system_config_form_fieldset_magentoconnectmanager</frontend_model>
+					<sort_order>70</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>0</show_in_website>
+					<show_in_store>0</show_in_store>
+				</mcm>
+
+				<tipps_translation translate="label" module="localepackfr">
+					<label>Using your own translations</label>
+					<frontend_type>text</frontend_type>
+					<sort_order>50</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>0</show_in_website>
+					<show_in_store>0</show_in_store>
+					<comment>More Infos here soon!</comment>
+				</tipps_translation>
+
+				<additional_extensions translate="label" module="localepackfr">
+					<label>Recommended extensions</label>
+					<frontend_type>text</frontend_type>
+                    <frontend_model>localepackfr/system_config_form_fieldset_extensions</frontend_model>
+					<sort_order>60</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>0</show_in_website>
+					<show_in_store>0</show_in_store>
+				</additional_extensions>
+			</groups>
+		</localepackfr>
+	</sections>
+</config>
