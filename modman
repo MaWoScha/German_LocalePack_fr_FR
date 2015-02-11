@@ -4,6 +4,8 @@ app/etc/modules/German_LocalePackFr.xml                       app/etc/modules/Ge
 
 
 #Downloader
+downloader/template_fr_1.5  downloader/template_fr_1.5
+downloader/template_fr_1.7  downloader/template_fr_1.7
 
 
 #Misc
