@@ -11,7 +11,7 @@
 <config>
     <modules>
         <German_LocalePackFr>
-            <version>0.2.0</version>
+            <version>0.3.0</version>
             <locale>fr_FR</locale>
             <title>French (France) Language Pack</title>
             <link_git>https://github.com/riconeitzel/German_LocalePack_fr_FR</link_git>
@@ -60,6 +60,15 @@
     </default>
 
     <adminhtml>
+        <layout>
+            <updates>
+                <localepackfr>
+                    <files>
+                        <default>localepackfr.xml</default>
+                    </files>
+                </localepackfr>
+            </updates>
+        </layout>
         <translate>
             <modules>
                 <German_LocalePackFr>

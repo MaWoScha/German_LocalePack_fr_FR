@@ -1,0 +1,1 @@
+tinyMCE.addI18n('fr.autosave',{restore_content: "Restaurer le contenu de l'auto-sauvegard\u00e9",warning_message: "Si vous restaurez le contenu enregistr\u00e9, vous perdrez tout le contenu qui est actuellement dans l'\u00e9diteur.\n\nEtes-vous s\u00fbr que vous voulez restaurer le contenu sauv\u00e9?"});

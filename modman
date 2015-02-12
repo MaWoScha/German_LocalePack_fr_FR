@@ -1,6 +1,7 @@
 #BackendModule
 app/code/community/German/LocalePackFr                        app/code/community/German/LocalePackFr
 app/etc/modules/German_LocalePackFr.xml                       app/etc/modules/German_LocalePackFr.xml
+app/design/adminhtml/default/default/layout/localepackfr.xml  app/design/adminhtml/default/default/layout/localepackfr.xml
 
 
 #Downloader
@@ -9,8 +10,26 @@ downloader/template_fr_1.7  downloader/template_fr_1.7
 
 
 #Misc
+js/german/localepackfr/setup.js     js/german/localepackfr/setup.js
 
 #TinyMCE
+js/tiny_mce/langs/fr.js                                 js/tiny_mce/langs/fr.js
+js/tiny_mce/plugins/advhr/langs/fr_dlg.js               js/tiny_mce/plugins/advhr/langs/fr_dlg.js
+js/tiny_mce/plugins/advimage/langs/fr_dlg.js            js/tiny_mce/plugins/advimage/langs/fr_dlg.js
+js/tiny_mce/plugins/advlink/langs/fr_dlg.js             js/tiny_mce/plugins/advlink/langs/fr_dlg.js
+js/tiny_mce/plugins/autosave/langs/fr.js                js/tiny_mce/plugins/autosave/langs/fr.js
+js/tiny_mce/plugins/emotions/langs/fr_dlg.js            js/tiny_mce/plugins/emotions/langs/fr_dlg.js
+js/tiny_mce/plugins/fullpage/langs/fr_dlg.js            js/tiny_mce/plugins/fullpage/langs/fr_dlg.js
+js/tiny_mce/plugins/media/langs/fr_dlg.js               js/tiny_mce/plugins/media/langs/fr_dlg.js
+js/tiny_mce/plugins/paste/langs/fr_dlg.js               js/tiny_mce/plugins/paste/langs/fr_dlg.js
+js/tiny_mce/plugins/searchreplace/langs/fr_dlg.js       js/tiny_mce/plugins/searchreplace/langs/fr_dlg.js
+js/tiny_mce/plugins/style/langs/fr_dlg.js               js/tiny_mce/plugins/style/langs/fr_dlg.js
+js/tiny_mce/plugins/table/langs/fr_dlg.js               js/tiny_mce/plugins/table/langs/fr_dlg.js
+js/tiny_mce/plugins/template/langs/fr_dlg.js            js/tiny_mce/plugins/template/langs/fr_dlg.js
+js/tiny_mce/plugins/xhtmlxtras/langs/fr_dlg.js          js/tiny_mce/plugins/xhtmlxtras/langs/fr_dlg.js
+js/tiny_mce/themes/advanced/langs/fr.js                 js/tiny_mce/themes/advanced/langs/fr.js
+js/tiny_mce/themes/advanced/langs/fr_dlg.js             js/tiny_mce/themes/advanced/langs/fr_dlg.js
+js/tiny_mce/themes/simple/langs/fr.js                   js/tiny_mce/themes/simple/langs/fr.js
 
 
 #LocalePack Translation

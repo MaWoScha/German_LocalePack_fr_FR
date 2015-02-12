@@ -13,7 +13,7 @@ French language pack for Magento Commerce
 Französisches Sprachpaket für Magento Commerce</description>
    <license>OSL</license>
    <license_uri>http://opensource.org/licenses/osl-3.0.php</license_uri>
-   <version>0.2.0</version>
+   <version>0.3.0</version>
    <stability>stable</stability>
    <notes>Compatible with Magento (1.6.2) 1.7.0.x-1.9.2.x</notes>
    <authors>
@@ -62,8 +62,27 @@ Französisches Sprachpaket für Magento Commerce</description>
    <contents>
       <target>
          <target>magelocal</target>
+         <target>magedesign</target>
          <target>magecommunity</target>
          <target>mageetc</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
+         <target>mage</target>
          <target>mage</target>
          <target>mage</target>
          <target>magelocale</target>
@@ -74,10 +93,29 @@ Französisches Sprachpaket für Magento Commerce</description>
       </target>
       <path>
          <path/>
+         <path>adminhtml/default/default/layout/localepackfr.xml</path>
          <path>German/LocalePackFr</path>
          <path>modules/German_LocalePackFr.xml</path>
          <path>downloader/template_fr_1.5</path>
          <path>downloader/template_fr_1.7</path>
+         <path>js/german/localepackfr/setup.js</path>
+         <path>js/tiny_mce/langs/fr.js</path>
+         <path>js/tiny_mce/plugins/advhr/langs/fr_dlg.js</path>
+         <path>js/tiny_mce/plugins/advimage/langs/fr_dlg.js</path>
+         <path>js/tiny_mce/plugins/advlink/langs/fr_dlg.js</path>
+         <path>js/tiny_mce/plugins/autosave/langs/fr.js</path>
+         <path>js/tiny_mce/plugins/emotions/langs/fr_dlg.js</path>
+         <path>js/tiny_mce/plugins/fullpage/langs/fr_dlg.js</path>
+         <path>js/tiny_mce/plugins/media/langs/fr_dlg.js</path>
+         <path>js/tiny_mce/plugins/paste/langs/fr_dlg.js</path>
+         <path>js/tiny_mce/plugins/searchreplace/langs/fr_dlg.js</path>
+         <path>js/tiny_mce/plugins/style/langs/fr_dlg.js</path>
+         <path>js/tiny_mce/plugins/table/langs/fr_dlg.js</path>
+         <path>js/tiny_mce/plugins/template/langs/fr_dlg.js</path>
+         <path>js/tiny_mce/plugins/xhtmlxtras/langs/fr_dlg.js</path>
+         <path>js/tiny_mce/themes/advanced/langs/fr.js</path>
+         <path>js/tiny_mce/themes/advanced/langs/fr_dlg.js</path>
+         <path>js/tiny_mce/themes/simple/langs/fr.js</path>
          <path>de_DE/German_LocaleFr.csv</path>
          <path>en_US/German_LocaleFr.csv</path>
          <path>es_ES/German_LocaleFr.csv</path>
@@ -86,10 +124,29 @@ Französisches Sprachpaket für Magento Commerce</description>
       </path>
       <type>
          <type>file</type>
+         <type>file</type>
          <type>dir</type>
          <type>file</type>
          <type>dir</type>
          <type>dir</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
          <type>file</type>
          <type>file</type>
          <type>file</type>
@@ -107,9 +164,47 @@ Französisches Sprachpaket für Magento Commerce</description>
          <include/>
          <include/>
          <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
       </include>
       <ignore>
          <ignore/>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
