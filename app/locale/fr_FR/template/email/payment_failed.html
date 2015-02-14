@@ -15,54 +15,54 @@
 
 <table>
     <thead>
-        <tr>
-            <th>La transaction de paiement a échouée.</th>
-        </tr>
+    <tr>
+        <th>Payment transaction failed.</th>
+    </tr>
     </thead>
     <tbody>
-        <tr>
-            <td>
-                <p>
-                    <b>Raison</b><br />
-                    {{var reason}}
-                </p>
-                <p>
-                    <b>Type de paiement</b><br />
-                    {{var checkoutType}}
-                </p>
-                <p>
-                    <b>Client:</b><br />
-                    <a href="mailto:{{var customerEmail}}">{{var customer}}</a> &lt;{{var customerEmail}}&gt;
-                </p>
-                <p>
-                    <b>Articles</b><br />
-                    {{var items}}
-                </p>
-                <p>
-                    <b>Total:</b><br />
-                    {{var total}}
-                </p>
-                <p>
-                    <b>Adresse de facturation:</b><br />
-                    {{var billingAddress.format('html')}}
-                </p>
-                <p>
-                    <b>Adresse d'expédition:</b><br />
-                    {{var shippingAddress.format('html')}}
-                </p>
-                <p>
-                    <b>Mode d'expédition:</b><br />
-                    {{var shippingMethod}}
-                </p>
-                <p>
-                    <b>Mode de paiement:</b><br />
-                    {{var paymentMethod}}
-                </p>
-                <p>
-                    <b>Date et heure:</b><br />
-                    {{var dateAndTime}}
-                </p>
-            </td>
-        </tr>
+    <tr>
+        <td>
+            <p>
+                <b>Reason</b><br />
+                {{var reason}}
+            </p>
+            <p>
+                <b>Checkout Type</b><br />
+                {{var checkoutType}}
+            </p>
+            <p>
+                <b>Customer:</b><br />
+                <a href="mailto:{{var customerEmail}}">{{var customer}}</a> &lt;{{var customerEmail}}&gt;
+            </p>
+            <p>
+                <b>Items</b><br />
+                {{var items}}
+            </p>
+            <p>
+                <b>Total:</b><br />
+                {{var total}}
+            </p>
+            <p>
+                <b>Billing Address:</b><br />
+                {{var billingAddress.format('html')}}
+            </p>
+            <p>
+                <b>Shipping Address:</b><br />
+                {{var shippingAddress.format('html')}}
+            </p>
+            <p>
+                <b>Shipping Method:</b><br />
+                {{var shippingMethod}}
+            </p>
+            <p>
+                <b>Payment Method:</b><br />
+                {{var paymentMethod}}
+            </p>
+            <p>
+                <b>Date & Time:</b><br />
+                {{var dateAndTime}}
+            </p>
+        </td>
+    </tr>
     </tbody>
 </table>

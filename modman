@@ -68,6 +68,10 @@ app/locale/fr_FR/template/email/sitemap_generate_warning.html app/locale/fr_FR/t
 app/locale/fr_FR/template/email/token.html app/locale/fr_FR/template/email/token.html
 app/locale/fr_FR/template/email/wishlist_share.html app/locale/fr_FR/template/email/wishlist_share.html
 
+#Email subtemplates
+app/locale/fr_FR/template/email/html/footer.html app/locale/fr_FR/template/email/html/footer.html
+app/locale/fr_FR/template/email/html/header.html app/locale/fr_FR/template/email/html/header.html
+
 #Email Sales Templates
 app/locale/fr_FR/template/email/sales/creditmemo_new_guest.html app/locale/fr_FR/template/email/sales/creditmemo_new_guest.html
 app/locale/fr_FR/template/email/sales/creditmemo_new.html app/locale/fr_FR/template/email/sales/creditmemo_new.html
