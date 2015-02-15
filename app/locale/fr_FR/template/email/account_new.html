@@ -17,7 +17,8 @@
 <table cellpadding="0" cellspacing="0" border="0">
     <tr>
         <td class="action-content">
-            <h1>Welcome to {{var store.getFrontendName()}}.</h1>
+            <h1>{{block type="cms/block" block_id="email_template_say_hello"}} {{htmlescape var=$customer.name}}</h1>
+            <p>Welcome to {{var store.getFrontendName()}}.</p>
             <p>To log in when visiting our site just click <a href="{{store url="customer/account/"}}">Login</a> or <a href="{{store url="customer/account/"}}">My Account</a> at the top of every page, and then enter your email address and password.</p>
             <p class="highlighted-text">
                 Use the following values when prompted to log in:<br/>
@@ -34,9 +35,7 @@
                 <li>Store alternative addresses (for shipping to multiple family members and friends!)</li>
             </ul>
             <p>
-                If you have any questions, please feel free to contact us at
-                <a href="mailto:{{var store_email}}">{{var store_email}}</a>
-                {{depend store_phone}} or by phone at <a href="tel:{{var store_phone}}">{{var store_phone}}</a>{{/depend}}.
+                {{block type="cms/block" block_id="email_template_contact"}}
             </p>
         </td>
     </tr>

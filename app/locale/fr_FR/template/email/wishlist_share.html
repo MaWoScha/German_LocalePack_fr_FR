@@ -3,6 +3,7 @@
 {"store url=\"\"":"Store Url",
 "var logo_url":"Email Logo Image Url",
 "var logo_alt":"Email Logo Image Alt",
+"var store.getFrontendName()":"Store Name",
 "var message":"Wishlist Message",
 "var items":"Wishlist Items"}
 @-->
@@ -14,24 +15,18 @@
 
 <table cellpadding="0" cellspacing="0" border="0">
     <tr>
-        <td>
-            <table cellpadding="0" cellspacing="0" border="0">
+        <td class="action-content">
+            <h1>Hey, take a look at my wishlist from {{var store.getFrontendName()}}.</h1>
+            <table cellspacing="0" cellpadding="0" class="message-container">
                 <tr>
-                    <td class="action-content">
-                        <h1>Hey, take a look at my wishlist from {{var store.getFrontendName()}}.</h1>
-                        <table cellspacing="0" cellpadding="0" class="message-container">
-                            <tr>
-                                <td>{{var message}}</td>
-                            </tr>
-                        </table>
-                        {{var items}}
-                        {{depend salable}}
-                        <p><strong><a href="{{var addAllLink}}">Add all items to shopping cart</a></strong> |
-                        {{/depend}}
-                        <strong><a href="{{var viewOnSiteLink}}">View all wishlist items</a></strong></p>
-                    </td>
+                    <td>{{var message}}</td>
                 </tr>
             </table>
+            {{var items}}
+            {{depend salable}}
+            <p><strong><a href="{{var addAllLink}}">Add all items to shopping cart</a></strong> |
+            {{/depend}}
+            <strong><a href="{{var viewOnSiteLink}}">View all wishlist items</a></strong></p>
         </td>
     </tr>
 </table>

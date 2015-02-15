@@ -10,7 +10,7 @@
 <table cellpadding="0" cellspacing="0" border="0">
     <tr>
         <td class="action-content">
-            <h1>Hello, {{htmlescape var=$userName}}</h1>
+            <h1>{{block type="cms/block" block_id="email_template_say_hello"}} {{htmlescape var=$userName}}</h1>
             <p>Your authorization to <b>{{htmlescape var=$applicationName}}</b> has been changed to <b>{{htmlescape var=$status}}</b> by Admin team.</p>
         </td>
     </tr>

@@ -11,7 +11,7 @@
 <config>
     <modules>
         <German_LocalePackFr>
-            <version>0.5.0</version>
+            <version>0.6.0</version>
             <locale>fr_FR</locale>
             <title>French (France) Language Pack</title>
             <link_git>https://github.com/riconeitzel/German_LocalePack_fr_FR</link_git>
@@ -46,6 +46,16 @@
                 </observers>
             </adminhtml_controller_action_predispatch_start>
         </events>
+        <resources>
+            <localepackfr_setup>
+                <setup>
+                    <module>German_LocalePackFr</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </localepackfr_setup>
+        </resources>
     </global>
 	
     <default>
