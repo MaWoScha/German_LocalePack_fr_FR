@@ -1,13 +1,12 @@
-<!--@subject Account confirmation for {{var customer.name}} @-->
+<!--@subject Confirmation de compte pour {{var customer.name}} @-->
 <!--@vars
 {"store url=\"\"":"Store Url",
 "var logo_url":"Email Logo Image Url",
 "var logo_alt":"Email Logo Image Alt",
-"store url=\"customer/account/\"":"Customer Account Url",
 "htmlescape var=$customer.name":"Customer Name",
+"store url=\"customer/account/\"":"Customer Account Url",
 "var customer.email":"Customer Email",
-"store url=\"customer/account/confirm/\" _query_id=$customer.id _query_key=$customer.confirmation _query_back_url=$back_url":"Confirmation Url",
-"htmlescape var=$customer.password":"Customer password"}
+"store url=\"customer/account/confirm/\" _query_id=$customer.id _query_key=$customer.confirmation _query_back_url=$back_url":"Confirmation Url"}
 @-->
 
 <!--@styles
@@ -18,23 +17,18 @@
 
 <table cellpadding="0" cellspacing="0" border="0">
     <tr>
-		<td class="action-content">
-			<h1>{{block type="cms/block" block_id="email_template_say_hello"}} {{htmlescape var=$customer.name}},</h1>
-			<p>Your email {{var customer.email}} must be confirmed before using it to log in to our store.</p>
-			<p class="highlighted-text">
-				Use the following values when prompted to log in:<br/>
-				<strong>Email:</strong> {{var customer.email}}<br/>
-				<strong>Password:</strong> {{htmlescape var=$customer.password}}
-			</p>
-			<p>Click here to confirm your email and instantly log in (the link is valid only once):</p>
-			<table cellspacing="0" cellpadding="0" class="action-button" >
-				<tr>
-					<td>
-						<a href="{{store url="customer/account/confirm/" _query_id=$customer.id _query_key=$customer.confirmation _query_back_url=$back_url}}"><span>Confirm Account</span></a>
-					</td>
-				</tr>
-			</table>
-			<p>
+        <td class="action-content">
+            <h1>{{block type="cms/block" block_id="email_template_say_hello"}} {{htmlescape var=$customer.name}}</h1>
+            <p>Votre e-mail {{var customer.email}} doit être confirmé avant de l'utiliser pour vous connecter à notre magasin.</p>
+            <p>Pour confirmer l'e-mail et vous connecter instantanément, veuillez utiliser (Ce lien n'est valide qu'une seule fois):</p>
+            <table cellspacing="0" cellpadding="0" class="action-button" >
+                <tr>
+                    <td>
+                        <a href="{{store url="customer/account/confirm/" _query_id=$customer.id _query_key=$customer.confirmation _query_back_url=$back_url}}"><span>Confirmez compte</span></a>
+                    </td>
+                </tr>
+            </table>
+            <p>
                 {{block type="cms/block" block_id="email_template_contact"}}
             </p>
         </td>

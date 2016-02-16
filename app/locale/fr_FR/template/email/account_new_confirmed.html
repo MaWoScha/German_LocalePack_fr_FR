@@ -1,4 +1,4 @@
-<!--@subject Welcome, {{var customer.name}}! @-->
+<!--@subject Bienvenue, {{var customer.name}}! @-->
 <!--@vars
 {"store url=\"\"":"Store Url",
 "var logo_url":"Email Logo Image Url",
@@ -17,15 +17,16 @@
     <tr>
         <td class="action-content">
             <h1>{{block type="cms/block" block_id="email_template_say_hello"}} {{htmlescape var=$customer.name}}</h1>
-            <p>To log in when visiting our site just click <a href="{{store url="customer/account/"}}">Login</a> or <a href="{{store url="customer/account/"}}">My Account</a> at the top of every page, and then enter your email address and password.</p>
-            <p>When you log in to your account, you will be able to do the following:</p>
+            <p>Bienvenue dans {{var store.getFrontendName()}}.</p>
+            <p>Pour vous connecter lorsque vous visitez notre site, il vous suffit de cliquer sur <a href="{{store url="customer/account/"}}">Connexion</a> ou <a href="{{store url="customer/account/"}}">Mon compte</a> en haut de chaque page, puis d'entrer votre adresse e-mail et votre mot de passe.</p>
+            <p>Lorsque vous vous connectez à votre compte, vous pouvez effectuer les opérations suivantes:</p>
             <ul>
-                <li>Proceed through checkout faster when making a purchase</li>
-                <li>Check the status of orders</li>
-                <li>View past orders</li>
-                <li>Make changes to your account information</li>
-                <li>Change your password</li>
-                <li>Store alternative addresses (for shipping to multiple family members and friends!)</li>
+                <li>Procéder au paiement plus rapidement lorsque vous faites un achat</li>
+                <li>Vérifier l'état des commandes</li>
+                <li>Afficher les anciennes commandes</li>
+                <li>Modifier les informations sur votre compte</li>
+                <li>Changer votre mot de passe</li>
+                <li>Enregistrer d'autres adresses (pour l'expédition à plusieurs membres de votre famille et amis&nbsp;!)</li>
             </ul>
             <p>
                 {{block type="cms/block" block_id="email_template_contact"}}

@@ -1,4 +1,4 @@
-<!--@subject Take a look at {{var customer.name}}'s wishlist @-->
+<!--@subject Jetez un oeil à la liste de souhaits du {{var customer.name}} @-->
 <!--@vars
 {"store url=\"\"":"Store Url",
 "var logo_url":"Email Logo Image Url",
@@ -7,6 +7,7 @@
 "var message":"Wishlist Message",
 "var items":"Wishlist Items"}
 @-->
+
 <!--@styles
 @-->
 
@@ -15,18 +16,18 @@
 
 <table cellpadding="0" cellspacing="0" border="0">
     <tr>
-        <td class="action-content">
-            <h1>Hey, take a look at my wishlist from {{var store.getFrontendName()}}.</h1>
-            <table cellspacing="0" cellpadding="0" class="message-container">
-                <tr>
-                    <td>{{var message}}</td>
-                </tr>
-            </table>
-            {{var items}}
-            {{depend salable}}
-            <p><strong><a href="{{var addAllLink}}">Add all items to shopping cart</a></strong> |
-            {{/depend}}
-            <strong><a href="{{var viewOnSiteLink}}">View all wishlist items</a></strong></p>
+		<td class="action-content">
+			<h1>Bonjour,<br/>regardez ma liste de souhaits chez {{var store.getFrontendName()}}.</h1>
+			<table cellspacing="0" cellpadding="0" class="message-container">
+				<tr>
+					<td>{{var message}}</td>
+				</tr>
+			</table>
+			{{var items}}
+			{{depend salable}}
+			<p><strong><a href="{{var addAllLink}}">Ajouter tous les articles au panier d'achat</a></strong> |
+			{{/depend}}
+			<strong><a href="{{var viewOnSiteLink}}">Afficher tous les articles de la liste de souhaits</a>!</strong></p>
         </td>
     </tr>
 </table>

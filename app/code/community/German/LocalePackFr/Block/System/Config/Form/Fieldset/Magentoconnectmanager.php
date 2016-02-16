@@ -4,7 +4,7 @@
  * @package   German_LocalePack
  * @authors   MaWoScha <mawoscha@siempro.co, http://www.siempro.co/>
  * @developer MaWoScha <mawoscha@siempro.co, http://www.siempro.co/>
- * @version   0.2.0
+ * @version   0.3.0
  * @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 class German_LocalePackFr_Block_System_Config_Form_Fieldset_Magentoconnectmanager
@@ -29,7 +29,7 @@ class German_LocalePackFr_Block_System_Config_Form_Fieldset_Magentoconnectmanage
         $html .= '<li>"'.$helper->__("from").' Magento 1.7.x "template_fr_1.7"</li></ul>';
         $html .= $helper->__('rename into "template"').'.</li>';
         $html .= "</ol>";
-        $html .= "<p>".$helper->__("The Magento Connect Manager should be changed to German now.")."</p>";
+        $html .= "<p>".$helper->__("The Magento Connect Manager should be changed to French now.")."</p>";
         $html .= "<p><strong style='font-weight: bold; color:red; margin-top:20pt;'>";
         $html .= $helper->__("Please note:")."</strong> ".$helper->__('If Magento is updated, in particular the module "Mage_Downloader", the settings of the Connect Manager will be overwritten!')."<br />";
         $html .= $helper->__('The same applies to the TinyMCE editor. Run in the case a "Reinstall" the language pack and repeat the described steps.')."</p>";

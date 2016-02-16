@@ -1,4 +1,4 @@
-<!--@subject {{var store.getFrontendName()}}: Invoice # {{var invoice.increment_id}} update @-->
+<!--@subject {{var store.getFrontendName()}}: Facture n° {{var invoice.increment_id}} pour la Votre commande n° {{var order.increment_id}} mis à jour @-->
 <!--@vars
 {"store url=\"\"":"Store Url",
 "var logo_url":"Email Logo Image Url",
@@ -10,29 +10,29 @@
 "var comment":"Invoice Comment",
 "var store.getFrontendName()":"Store Name"}
 @-->
+
 <!--@styles
 @-->
-
 
 {{template config_path="design/email/header"}}
 {{inlinecss file="email-inline.css"}}
 
 <table cellpadding="0" cellspacing="0" border="0">
     <tr>
-        <td class="action-content">
-            <h1>{{block type="cms/block" block_id="email_template_say_hello"}} {{htmlescape var=$order.getCustomerName()}},</h1>
-            <p>Your order <span class="no-link">#{{var order.increment_id}}</span> has been updated to: <strong>{{var order.getStatusLabel()}}</strong></p>
-            {{if comment}}
-            <table cellspacing="0" cellpadding="0" class="message-container">
-                <tr>
-                    <td>{{var comment}}</td>
-                </tr>
-            </table>
-            {{/if}}
-            <p>You can check the status of your order by <a href="{{store url="customer/account/"}}">logging into your account</a>.</p>
-            <p>
-                {{block type="cms/block" block_id="email_template_contact"}}
-            </p>
+		<td class="action-content">
+			<h1>{{block type="cms/block" block_id="email_template_say_hello"}} {{htmlescape var=$order.getCustomerName()}}</h1>
+			<p>Le statut de votre commande <span class="no-link">#{{var order.increment_id}}</span> est: <strong>{{var order.getStatusLabel()}}</strong></p>
+			{{if comment}}
+			<table cellspacing="0" cellpadding="0" class="message-container">
+				<tr>
+					<td>{{var comment}}</td>
+				</tr>
+			</table>
+			{{/if}}
+			<p>Vous pouvez vérifier le statut de votre commande en vous <a href="{{store url="customer/account/"}}">connectant à votre compte</a>.</p>
+			<p>
+				{{block type="cms/block" block_id="email_template_contact"}}
+			</p>
         </td>
     </tr>
 </table>

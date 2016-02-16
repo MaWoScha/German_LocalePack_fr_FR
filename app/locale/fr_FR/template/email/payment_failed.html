@@ -1,4 +1,4 @@
-<!--@subject Payment Transaction Failed Reminder @-->
+<!--@subject Transaction de paiement a échoué rappel @-->
 <!--@vars
 {"var reason":"Transaction Failed Reason",
 "var checkoutType":"Checkout Type",
@@ -16,26 +16,26 @@
 <table>
     <thead>
     <tr>
-        <th>Payment transaction failed.</th>
+        <th>La transaction de paiement a échouée.</th>
     </tr>
     </thead>
     <tbody>
     <tr>
         <td>
             <p>
-                <b>Reason</b><br />
+                <b>Raison</b><br />
                 {{var reason}}
             </p>
             <p>
-                <b>Checkout Type</b><br />
+                <b>Type de paiement</b><br />
                 {{var checkoutType}}
             </p>
             <p>
-                <b>Customer:</b><br />
+                <b>Client:</b><br />
                 <a href="mailto:{{var customerEmail}}">{{var customer}}</a> &lt;{{var customerEmail}}&gt;
             </p>
             <p>
-                <b>Items</b><br />
+                <b>Articles</b><br />
                 {{var items}}
             </p>
             <p>
@@ -43,23 +43,23 @@
                 {{var total}}
             </p>
             <p>
-                <b>Billing Address:</b><br />
+                <b>Adresse de facturation:</b><br />
                 {{var billingAddress.format('html')}}
             </p>
             <p>
-                <b>Shipping Address:</b><br />
+                <b>Adresse d'expédition:</b><br />
                 {{var shippingAddress.format('html')}}
             </p>
             <p>
-                <b>Shipping Method:</b><br />
+                <b>Mode d'expédition:</b><br />
                 {{var shippingMethod}}
             </p>
             <p>
-                <b>Payment Method:</b><br />
+                <b>Mode de paiement:</b><br />
                 {{var paymentMethod}}
             </p>
             <p>
-                <b>Date & Time:</b><br />
+                <b>Date et heure:</b><br />
                 {{var dateAndTime}}
             </p>
         </td>

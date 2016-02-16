@@ -4,7 +4,7 @@
  * @package   German_LocalePack
  * @authors   MaWoScha <mawoscha@siempro.co, http://www.siempro.co/>
  * @developer MaWoScha <mawoscha@siempro.co, http://www.siempro.co/>
- * @version   0.2.0
+ * @version   0.3.0
  * @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 class German_LocalePackFr_Block_System_Config_Form_Fieldset_Instructions
@@ -12,22 +12,22 @@ class German_LocalePackFr_Block_System_Config_Form_Fieldset_Instructions
 {
     public function render(Varien_Data_Form_Element_Abstract $element)
     {
-    	$nodepath = "modules/German_LocalePackFr";
+        $nodepath = "modules/German_LocalePackFr";
         $helper = Mage::helper("localepackfr");
 
         $html  = $this->_getHeaderHtml($element);
         $html .= "<p style='font-weight:bold;'>";
         $html .= $helper->__("The %s language pack in version %s has been successfully installed.",
-        		(string)Mage::app()->getConfig()->getNode($nodepath.'/locale'),
-        		(string)Mage::app()->getConfig()->getNode($nodepath.'/version') );
+                (string)Mage::app()->getConfig()->getNode($nodepath.'/locale'),
+                (string)Mage::app()->getConfig()->getNode($nodepath.'/version') );
         $html .= "</p>";
         $html .= "<p style='margin-top:20pt;'>";
-        $html .= $helper->__("On the <a href='%s'>Magento Connect page of the German language pack</a>, you can find more information on the latest versions.",
-				(string)Mage::app()->getConfig()->getNode($nodepath.'/link_mage') );
+        $html .= $helper->__("On the <a href='%s'>Magento Connect page of the French language pack</a>, you can find more information on the latest versions.",
+                (string)Mage::app()->getConfig()->getNode($nodepath.'/link_mage') );
         $html .= "</p>";
         $html .= "<p style='margin-top:20pt;'>";
         $html .= $helper->__("For those interested there is a <a href='%s'>GitHub repository</a>. It is provided for the following purposes:",
-				(string)Mage::app()->getConfig()->getNode($nodepath.'/link_git') );
+                (string)Mage::app()->getConfig()->getNode($nodepath.'/link_git') );
         $html .= "</p>";
 
         $html .= "<ul style='list-style-position: outside; list-style-type: disc; margin-left:18px;'>";
@@ -46,7 +46,7 @@ class German_LocalePackFr_Block_System_Config_Form_Fieldset_Instructions
         $html .= $helper->__("In order to ensure the translation Magento coverage, please see the information in the lower paragraphs!");
         $html .= "</p>";
         $html .= "<p style='text-align:right;'>";
-        $html .= $helper->__("powered by")." <a href='http://blog.siempro.co/' target='_blank'>MaWoScha</a>";
+        $html .= $helper->__("powered by")." <a href='http://blog.siempro.co/' target='_blank'>MaWoScha</a> ".$helper->__("and")." <a href='http://www.meliweb.fr/' target='_blank'>Meliwe</a>";
         $html .= "</p>";
         $html .= $this->_getFooterHtml($element);
 
