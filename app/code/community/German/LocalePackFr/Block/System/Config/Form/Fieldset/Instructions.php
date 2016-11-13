@@ -40,7 +40,8 @@ class German_LocalePackFr_Block_System_Config_Form_Fieldset_Instructions
         $html .= '</ul>';
 
         $html .= "<p style='margin-top:20pt;'>";
-        $html .= $helper->__("Note for detailed information, the README file on the GitHub page.");
+        $html .= $helper->__("Note for detailed information, the README file on the <a href='%s'>GitHub page</a>.",
+                (string)Mage::app()->getConfig()->getNode($nodepath.'/link_git') );
         $html .= "</p>";
         $html .= "<p style='font-weight:bold;'>";
         $html .= $helper->__("In order to ensure the translation Magento coverage, please see the information in the lower paragraphs!");

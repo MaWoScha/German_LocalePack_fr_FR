@@ -86,7 +86,7 @@ app/locale/fr_FR/Mage_Install.csv app/locale/fr_FR/Mage_Install.csv
 app/locale/fr_FR/Mage_Log.csv app/locale/fr_FR/Mage_Log.csv
 app/locale/fr_FR/Mage_Media.csv app/locale/fr_FR/Mage_Media.csv
 app/locale/fr_FR/Mage_Newsletter.csv app/locale/fr_FR/Mage_Newsletter.csv
-app/locale/fr_FR/Mage_OAuth.csv app/locale/fr_FR/Mage_OAuth.csv
+app/locale/fr_FR/Mage_Oauth.csv app/locale/fr_FR/Mage_Oauth.csv
 app/locale/fr_FR/Mage_Page.csv app/locale/fr_FR/Mage_Page.csv
 app/locale/fr_FR/Mage_PageCache.csv app/locale/fr_FR/Mage_PageCache.csv
 app/locale/fr_FR/Mage_Paygate.csv app/locale/fr_FR/Mage_Paygate.csv
@@ -131,6 +131,7 @@ app/locale/fr_FR/template/email/newsletter_subscr_confirm.html app/locale/fr_FR/
 app/locale/fr_FR/template/email/newsletter_subscr_success.html app/locale/fr_FR/template/email/newsletter_subscr_success.html
 app/locale/fr_FR/template/email/newsletter_unsub_success.html app/locale/fr_FR/template/email/newsletter_unsub_success.html
 app/locale/fr_FR/template/email/password_new.html app/locale/fr_FR/template/email/password_new.html
+app/locale/fr_FR/template/email/password_or_email_changed.html app/locale/fr_FR/template/email/password_or_email_changed.html
 app/locale/fr_FR/template/email/payment_failed.html app/locale/fr_FR/template/email/payment_failed.html
 app/locale/fr_FR/template/email/product_alert_cron_error.html app/locale/fr_FR/template/email/product_alert_cron_error.html
 app/locale/fr_FR/template/email/product_price_alert.html app/locale/fr_FR/template/email/product_price_alert.html
@@ -141,9 +142,9 @@ app/locale/fr_FR/template/email/token.html app/locale/fr_FR/template/email/token
 app/locale/fr_FR/template/email/wishlist_share.html app/locale/fr_FR/template/email/wishlist_share.html
 
 #Email subtemplates
-app/locale/fr_FR/template/email/html/call_us.html app/locale/fr_FR/template/email/html/call_us.html
 app/locale/fr_FR/template/email/html/footer.html app/locale/fr_FR/template/email/html/footer.html
 app/locale/fr_FR/template/email/html/header.html app/locale/fr_FR/template/email/html/header.html
+app/locale/fr_FR/template/email/html/support.html app/locale/fr_FR/template/email/html/support.html
 
 #Email Sales Templates
 app/locale/fr_FR/template/email/sales/creditmemo_new_guest.html app/locale/fr_FR/template/email/sales/creditmemo_new_guest.html

@@ -213,12 +213,12 @@ $$('#connect_packages_' + <?php echo $i?> + ' select').each(function(el){el.valu
 <div id="connect_iframe_success" style="display:none">
     <?php $this->set('messages', array('success'=>array('Procedure completed. Please check the output frame for useful information and refresh the page to see changes.'))) ?>
     <?php echo $this->template('messages.phtml') ?>
-    <button onclick="location.href='<?php echo $this->baseUrl() ?>'">Actualiser</button>
+    <button onclick="location.reload()">Actualiser</button>
 </div>
 <div id="connect_iframe_failure" style="display:none">
     <?php $this->set('messages', array('error'=>array('Please check the output frame for errors and refresh the page to retry changes.'))) ?>
     <?php echo $this->template('messages.phtml') ?>
-    <button onclick="location.href='<?php echo $this->baseUrl() ?>'">Actualiser</button>
+    <button onclick="location.reload()">Actualiser</button>
 </div>
 
 <?php echo $this->template('footer.phtml') ?>

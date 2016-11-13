@@ -43,6 +43,7 @@
 "Set Items' Status to be In Stock When Order is Cancelled","Met l'état de l'article comme étant en stock lorsque la commande est annulée"
 "Some of the products are currently out of stock","Certains des produits ne sont plus en stock."
 "Some of the products are currently out of stock.","Certains des produits ne sont plus en stock."
+"Some of the products are not available","Certains des produits ne sont plus en stock"
 "Some of the products cannot be ordered in requested quantity.","Certains des produits ne peuvent pas être commandés dans la quantité souhaitée."
 "Some of the products cannot be ordered in the requested quantity.","Certains des produits ne peuvent être commandés dans la quantité requise."
 "Stock Options","Options de stock"
