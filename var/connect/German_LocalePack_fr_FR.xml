@@ -591,6 +591,7 @@ Französisches Sprachpaket für Magento Commerce</description>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
       </ignore>
    </contents>
 </_>

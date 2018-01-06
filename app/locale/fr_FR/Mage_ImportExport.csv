@@ -43,7 +43,7 @@
 "Error in data structure: behaviors are mixed","Erreur dans la structure des données : les comportements sont mélangés"
 "Error in data structure: entity codes are mixed","Erreur dans la structure des données : les codes d'entité sont mélangés"
 "Errors limit (%d) reached. Please fix errors and re-upload file","Nombre limite d'erreurs (%d) atteint. Veuillez fixer les erreurs, puis renvoyer le fichier"
-"Escape CSV fields","Quittez les champs CSV"
+"Escape CSV fields","Masquage champs CSV"
 "Export","Exporter"
 "Export FAQ","Exporter FAQ"
 "Export File Format","Exporter format du fichier"
