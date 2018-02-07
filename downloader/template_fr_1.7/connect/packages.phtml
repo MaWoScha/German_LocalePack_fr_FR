@@ -20,7 +20,7 @@
  *
  * @category    design
  * @package     default
- * @copyright   Copyright (c) 2006-2016 X.commerce, Inc. and affiliates (http://www.magento.com)
+ * @copyright   Copyright (c) 2006-2017 X.commerce, Inc. and affiliates (http://www.magento.com)
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
 ?>
@@ -255,12 +255,12 @@ $$('#connect_packages_' + <?php echo $i?> + ' select').each(function(el){el.valu
 <div id="connect_iframe_success" style="display:none">
     <?php $this->set('messages', array('success'=>array('Procedure completed. Please check the output frame for useful information and refresh the page to see changes.'))) ?>
     <?php echo $this->template('messages.phtml') ?>
-    <button onclick="location.reload()">Actualiser</button>
+    <button onclick="location.href='<?php echo $this->baseUrl() ?>'">Actualiser</button>
 </div>
 <div id="connect_iframe_failure" style="display:none">
     <?php $this->set('messages', array('error'=>array('Please check the output frame for errors and refresh the page to retry changes.'))) ?>
     <?php echo $this->template('messages.phtml') ?>
-    <button onclick="location.reload()">Actualiser</button>
+    <button onclick="location.href='<?php echo $this->baseUrl() ?>'">Actualiser</button>
 </div>
 
 <?php echo $this->template('footer.phtml') ?>

@@ -37,6 +37,7 @@ app/locale/de_DE/German_LocaleFr.csv app/locale/de_DE/German_LocaleFr.csv
 app/locale/en_US/German_LocaleFr.csv app/locale/en_US/German_LocaleFr.csv
 app/locale/es_ES/German_LocaleFr.csv app/locale/es_ES/German_LocaleFr.csv
 app/locale/fr_FR/German_LocaleFr.csv app/locale/fr_FR/German_LocaleFr.csv
+app/locale/it_IT/German_LocaleFr.csv app/locale/it_IT/German_LocaleFr.csv
 app/locale/pt_PT/German_LocaleFr.csv app/locale/pt_PT/German_LocaleFr.csv
 
 
@@ -108,6 +109,7 @@ app/locale/fr_FR/Mage_Shipping.csv app/locale/fr_FR/Mage_Shipping.csv
 app/locale/fr_FR/Mage_Sitemap.csv app/locale/fr_FR/Mage_Sitemap.csv
 app/locale/fr_FR/Mage_Tag.csv app/locale/fr_FR/Mage_Tag.csv
 app/locale/fr_FR/Mage_Tax.csv app/locale/fr_FR/Mage_Tax.csv
+app/locale/fr_FR/Mage_Uploader.csv app/locale/fr_FR/Mage_Uploader.csv
 app/locale/fr_FR/Mage_Usa.csv app/locale/fr_FR/Mage_Usa.csv
 app/locale/fr_FR/Mage_Weee.csv app/locale/fr_FR/Mage_Weee.csv
 app/locale/fr_FR/Mage_Widget.csv app/locale/fr_FR/Mage_Widget.csv

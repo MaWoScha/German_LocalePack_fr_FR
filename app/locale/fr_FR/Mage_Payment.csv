@@ -65,7 +65,6 @@
 "Name on the Card","Nom sur la carte"
 "Name on the Card: %s","Nom sur la carte : %s"
 "New Order Status","Nouveau statut de la commande"
-"No Payment Information Required","Aucune information de paiement requis"
 "Number of billing periods that make up one billing cycle.","Nombre de période de facturation qui font un cycle de facturation."
 "Order action is not available.","Action Commande non disponible."
 "Overrides API URL that may be specified by a payment method.","Ignorer l'URL de l'API qui pourrait être spécifiée par une méthode de paiement."

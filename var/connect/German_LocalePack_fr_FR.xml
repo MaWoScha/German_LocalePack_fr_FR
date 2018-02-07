@@ -13,7 +13,7 @@ French language pack for Magento Commerce
 Französisches Sprachpaket für Magento Commerce</description>
    <license>OSL</license>
    <license_uri>http://opensource.org/licenses/osl-3.0.php</license_uri>
-   <version>0.7.1</version>
+   <version>0.7.5</version>
    <stability>stable</stability>
    <notes>Compatible with Magento 1.7.0.x-1.9.3.x</notes>
    <authors>
@@ -22,7 +22,7 @@ Französisches Sprachpaket für Magento Commerce</description>
          <name>Manfred Worm Schäfer</name>
       </name>
       <user>
-         <user>auto-converted</user>
+         <user>auto_converted</user>
          <user>MaWoScha</user>
       </user>
       <email>
@@ -94,6 +94,8 @@ Französisches Sprachpaket für Magento Commerce</description>
          <target>mage</target>
          <target>mage</target>
          <target>mage</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
          <target>magelocale</target>
          <target>magelocale</target>
          <target>magelocale</target>
@@ -258,6 +260,7 @@ Französisches Sprachpaket für Magento Commerce</description>
          <path>fr_FR/Mage_Sitemap.csv</path>
          <path>fr_FR/Mage_Tag.csv</path>
          <path>fr_FR/Mage_Tax.csv</path>
+         <path>fr_FR/Mage_Uploader.csv</path>
          <path>fr_FR/Mage_Usa.csv</path>
          <path>fr_FR/Mage_Weee.csv</path>
          <path>fr_FR/Mage_Widget.csv</path>
@@ -269,6 +272,7 @@ Französisches Sprachpaket für Magento Commerce</description>
          <path>en_US/German_LocaleFr.csv</path>
          <path>es_ES/German_LocaleFr.csv</path>
          <path>fr_FR/German_LocaleFr.csv</path>
+         <path>it_IT/German_LocaleFr.csv</path>
          <path>pt_PT/German_LocaleFr.csv</path>
       </path>
       <type>
@@ -368,7 +372,9 @@ Französisches Sprachpaket für Magento Commerce</description>
          <type>file</type>
          <type>file</type>
          <type>file</type>
+         <type>file</type>
          <type>dir</type>
+         <type>file</type>
          <type>file</type>
          <type>file</type>
          <type>file</type>
@@ -478,9 +484,13 @@ Französisches Sprachpaket für Magento Commerce</description>
          <include/>
          <include/>
          <include/>
+         <include/>
+         <include/>
       </include>
       <ignore>
          <ignore/>
+         <ignore>#^.DS_Store#</ignore>
+         <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
          <ignore>#^.DS_Store#</ignore>
