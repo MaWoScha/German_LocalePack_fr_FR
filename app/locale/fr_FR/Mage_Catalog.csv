@@ -103,6 +103,8 @@
 "Attribute Sets","Ensembles d'attributs"
 "Attribute add","Attribut ajouter"
 "Attribute code is invalid. Please use only letters (a-z), numbers (0-9) or underscore(_) in this field, first character should be a letter.","Le code d'attribut est invalide. Veuillez n'utiliser que des lettres (a-z), chiffres (0-9) ou underscores (_) dans ce champ, le premier caractère devant être une lettre."
+"Attribute code is invalid. Please use only letters (a-z), numbers (0-9) or underscore(_) in this field, first character should be a letter. Do not use ""event"" for an attribute code.","Le code d'attribut est invalide. Veuillez n'utiliser que des lettres (a-z), chiffres (0-9) ou underscores (_) dans ce champ, le premier caractère devant être une lettre. N'utilisez pas ""event"" pour un code d'attribut."
+"Attribute code is invalid. Please use only letters (a-z), numbers (0-9) or underscore(_) in this field, first character should be a letter. Do not use event"" for an attribute code.""","Le code d'attribut est invalide. Veuillez n'utiliser que des lettres (a-z), chiffres (0-9) ou underscores (_) dans ce champ, le premier caractère devant être une lettre. N'utilisez pas ""event"" pour un code d'attribut."
 "Attribute group with the \"/name/\" name already exists","Groupe d'attribut avec le nom \"/name/\" existe déjà."
 "Attribute group with the \/name/\ name already exists","Groupe d'attribut avec le nom \"/name/\" existe déjà."
 "Attribute names can be specified per store.","Les noms des attributs peuvent être définis par magasin."
