@@ -148,7 +148,7 @@
       ["js/tiny_mce/plugins/advlink/langs/fr_dlg.js", "js/tiny_mce/plugins/advlink/langs/fr_dlg.js"],
       ["js/tiny_mce/plugins/autosave/langs/fr.js", "js/tiny_mce/plugins/autosave/langs/fr.js"],
       ["js/tiny_mce/plugins/emotions/langs/fr_dlg.js", "js/tiny_mce/plugins/emotions/langs/fr_dlg.js"],
-      ["js/tiny_mce/plugins/fullpage/langs/fr_dlg.js", "./js/tiny_mce/plugins/fullpage/langs/fr_dlg.js"],
+      ["js/tiny_mce/plugins/fullpage/langs/fr_dlg.js", "js/tiny_mce/plugins/fullpage/langs/fr_dlg.js"],
       ["js/tiny_mce/plugins/media/langs/fr_dlg.js", "js/tiny_mce/plugins/media/langs/fr_dlg.js"],
       ["js/tiny_mce/plugins/paste/langs/fr_dlg.js", "js/tiny_mce/plugins/paste/langs/fr_dlg.js"],
       ["js/tiny_mce/plugins/searchreplace/langs/fr_dlg.js", "js/tiny_mce/plugins/searchreplace/langs/fr_dlg.js"],
