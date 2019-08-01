@@ -25,6 +25,7 @@
 "Path","Chemin"
 "Please create the specified folder ""%s"" before saving the sitemap.","Veuillez créer le dossier spécifié ""%s"" avant d'enregistrer le plan du site."
 "Please define correct path","Définissez un chemin correct"
+"Please enter a sitemap name with at most %s characters.","Veuillez entrer un nom de plan du site avec un maximum de caractères %s."
 "Please make sure that ""%s"" is writable by web-server.","Veuillez vous assurer que ""%s"" est accessible en écriture par le serveur web."
 "Please use only letters (a-z or A-Z), numbers (0-9) or underscore (_) in the filename. No spaces or other characters are allowed.","N'utilisez que des lettres (a-z ou A-Z), des nombres (0-9) ou un blanc souligné (_) dans le nom du fichier. Aucune espace ou autre caractère ne sont autorisés."
 "Priority","Priorité"
