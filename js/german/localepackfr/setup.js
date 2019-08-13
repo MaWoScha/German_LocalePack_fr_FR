@@ -26,7 +26,7 @@
 /** Modified Version of this file
  * @category German
  * @package German_LocalePack
- * @authors MaWoScha <mawoscha@siempro.co, http://www.siempro.co/>, Daniel Sasse <info@golox-web.de, http://www.golox-web.de/> - Rico Neitzel <rico@buro71a.de, http://www.buro71a.de/>
+ * @authors MaWoScha, Daniel Sasse <info@golox-web.de, http://www.golox-web.de/> - Rico Neitzel <rico@buro71a.de, http://www.buro71a.de/>
  * @developer Daniel Sasse <info@golox-web.de, http://www.golox-web.de/> - Rico Neitzel <rico@buro71a.de, http://www.buro71a.de/>
  * @version 1.0.0
  * @license http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
